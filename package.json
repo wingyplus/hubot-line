@@ -1,0 +1,22 @@
+{
+  "name": "hubot-line",
+  "version": "1.0.0",
+  "description": "Hubot for Line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "hubot": ">=2.0.0"
+  },
+  "keywords": [
+    "line",
+    "hubot"
+  ],
+  "author": "Thanabodee Charoenpiriyakij <wingyminus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.2"
+  },
+  "devDependencies": {}
+}
