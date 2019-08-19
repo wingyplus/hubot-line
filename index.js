@@ -1,3 +1,5 @@
 const { Line } = require("./src/bot");
 
-module.exports = (robot) => new Line(robot);
+module.exports = {
+  use(robot) { return new Line(robot); }
+};

@@ -5,8 +5,8 @@ const { Adapter } = require.main.require('hubot');
  */
 class Line extends Adapter {
 
-  constructor() {
-    super();
+  constructor(robot) {
+    super(robot);
     this.robot.logger.info('Constructor');
   }
 
