@@ -35,7 +35,7 @@ class Line extends Adapter {
   }
 
   listenWebhook() {
-    this.robot.router.post('/hubot/webhook',  (req, res) => {
+    this.robot.router.post('/hubot/webhook', (req, res) => {
       if (validateSignature(JSON.stringify(req.body), this.config.channelSecret, this.config.channelAccessToken)) {
         res.send(401, 'invalid signature');
         return;
