@@ -1,4 +1,4 @@
-const { Adapter } = require.main.require('hubot');
+const Adapter = require.main.require('hubot/src/adapter');
 
 /**
  * Line bot adapter for Hubot.
@@ -16,4 +16,4 @@ class Line extends Adapter {
   }
 }
 
-module.exports = { Line };
+module.exports = Line;
