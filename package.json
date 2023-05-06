@@ -16,7 +16,7 @@
   "author": "Thanabodee Charoenpiriyakij <wingyminus@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@line/bot-sdk": "^6.8.2"
+    "@line/bot-sdk": "^7.5.2"
   },
   "devDependencies": {}
 }
